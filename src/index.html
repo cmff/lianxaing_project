@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/css/index.min.css">
+    <!-- 字体图标插件 -->
+    <link rel="stylesheet" href="../dist/libs/font_1920732_bsrfg4rxvpl/iconfont.css">
+    <!-- jQuery插件 -->
+    <script src="../dist/libs/jquery-1.12.4.js"></script>
+    <!-- 轮播插件 -->
+    <link href="http://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/css/swiper.min.css" rel="stylesheet">
+    <script src="http://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <!-- 
+        导航菜单css及js插件
+     -->
+    <link rel="stylesheet" href="../dist/libs/lrtk.css">
+    <script src="../dist/libs/jquery.tabso_yeso.js"></script>
+</head>
+
+<body>
+    <header id='nav' class="container-fluid">
+        <div class='logo l'>
+            <img src="img/logo.png">
+        </div>
+        <ul class="list l">
+            <li> <b><a>商城</a></b> </li>
+            <li> <b><a>服务</a></b> </li>
+            <li> <b><a>品牌</a></b> </li>
+            <li> <b><a>社区</a></b></li>
+            <li> <b><a>会员</a></b> </li>
+            <li> <b><a>门店</a></b> </li>
+            <li> <b><a>企业购</a></b> </li>
+        </ul>
+        <div class="search r">
+            <span class="iconfont icon-sousuo"></span>
+            <span class="login"> <a href="http://localhost/lianxiang_project/dist/pages/login.html">登录</a>| <a href="http://localhost/lianxiang_project/dist/pages/registor.html">注册</a> </span>
+            <a id='logout' href="">退出登录</a>
+            <span class="iconfont icon-gouwuche"></span>
+        </div>
+    </header>
+    <!-- 导航栏 -->
+    <div id="page-wrap">
+        <div id="example-one">
+
+            <ul class="list-tab">
+
+                <li class="nav" class="active"><a href="javascript:;" class="current">个人及家庭产品</a></li>
+
+                <li class="nav"><a href="javascript:;">中小企业采购及服务</a></li>
+
+                <li class="nav"><a href="javascript:;">政企大客户采购及服务</a></li>
+
+            </ul>
+
+            <div class="list-wrap">
+                <div class="wrap">
+                    <ul class="featured">
+
+                        <li><a href="javascript:;" target="_blank">Lenovo电脑</a>
+                            <a href="http://localhost/lianxiang_project/dist/pages/list.html">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+
+                        <li><a href="javascript:;" target="_blank">Thinkpad</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+
+                        <li><a href="javascript:;" target="_blank">手机通信</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+
+                        <li><a href="javascript:;" target="_blank">智能产品</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+
+                        <li><a href="javascript:;" target="_blank">平板电脑</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+
+                        <li><a href="javascript:;" target="_blank">配件办公</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+
+                        <li><a href="javascript:;" target="_blank">增值服务</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+                    </ul>
+                    <ul class="featured">
+
+                        <li><a href="javascript:;" target="_blank">Lenovo电脑</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+                        <li><a href="javascript:;" target="_blank">Lenovo电脑</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+                        <li><a href="javascript:;" target="_blank">Lenovo电脑</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+                        <li><a href="javascript:;" target="_blank">Lenovo电脑</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+                    </ul>
+                    <ul class="featured">
+
+                        <li><a href="javascript:;" target="_blank">Lenovo电脑</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+                        <li><a href="javascript:;" target="_blank">Lenovo电脑</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+                        <li><a href="javascript:;" target="_blank">Lenovo电脑</a>
+                            <a href="javascript:;" target="_blank">游戏本</a>
+                            <a href="javascript:;" target="_blank">轻薄本</a>
+                            <a href="javascript:;" target="_blank">便携本</a>
+                            <a href="javascript:;" target="_blank">常规本</a>
+                            <a href="javascript:;" target="_blank">二合一本</a>
+                            <a href="javascript:;" target="_blank">台式机</a>
+                            <a href="javascript:;" target="_blank">特色服务</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="img/1.jpg" alt=""> </div>
+                <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/7.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/8.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/9.jpg" alt=""></div>
+
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <script src="../dist/js/index.min.js"></script>
+        <ul id="navTop" class="container">
+            <li>个人及家庭产品</li>
+            <li>中小企业产品</li>
+            <li>政企大客户产品</li>
+            <li>数据中心产品</li>
+            <li>行业智能软件产品</li>
+        </ul>
+        <ul id="navBanner" class="container">
+            <li>
+                <img src="./img/21.png" alt="">
+                <img src="./img/11.png" alt="">
+                <div>Lenovo台式机</div>
+
+            </li>
+            <li>
+             <img src="./img/22.png" alt="">
+                    <img src="./img/12.png" alt="">
+                <div>Lenovo笔记本</div>
+            </li>
+            <li>
+                    <img src="./img/23.png" alt="">
+                    <img src="./img/13.png" alt="">
+                <div>Thinkpad电脑</div>
+            </li>
+            <li>
+                <img src="./img/24.png" alt="">
+                <img src="./img/14.png" alt="">
+                <div>选件/服务</div>
+            </li>
+            <li>
+                <img src="./img/25.png" alt="">
+                <img src="./img/15.png" alt="">
+                <div>智能产品</div>
+            </li>
+            <li>
+                <img src="./img/26.png" alt="">
+                <img src="./img/16.png" alt="">
+                <div>网课平板</div>
+            </li>
+        </ul>
+        <ul id="navContent" class="container">
+            <li>
+                <span class="span"> <img src="./img/31.png" alt=""> </span>
+                <span class="span-two">
+                    <p> <b>AIO 520C-24IWL 十代...</b> </p>
+                    <p>十代英特尔酷睿I5-
+                         <br> 10210U/Windows 10 家</p>
+                    <p class ="price">¥ 4799</p>
+                </span>
+            </li>
+            <li>
+                <span class="span"> <img src="./img/32.png" alt=""> </span>
+                <span class="span-two">
+                    <p> <b> 拯救者 刃7000K 2020...</b></p>
+                    <p>英特尔酷睿十代i7-
+                        <br>
+                        10700/Windows 10 家</p>
+                    <p class ="price">¥ 6999</p>
+                </span>
+
+            </li>
+            <li>
+                <span class="span"> <img src="./img/33.png" alt=""> </span>
+                <span class="span-two">
+                    <p>
+                        <b>网课AIO 逸-24ICK 英特...</b>
+                    </p>
+                    <p>九代英特尔酷睿i5-
+                        <br>9400T/Windows 10 家</p>
+                    <p class ="price">¥ 4999 </p>
+                </span>
+
+            </li>
+        </ul>
+        <div id ="navDot" class ="container">
+            <div> <img src="img/41.jpg" alt="">  </div>
+            <ul>
+                <li> <img src="img/42.jpg" alt=""></li>
+                <li> <img src="img/43.jpg" alt=""> </li>
+            </ul>
+        </div>
+        <div id ="tip" class="container-fluid">
+            <div class="container">
+                <div class ="tip-nav">
+                    <h1>成功案例</h1>
+                    <p><a href="">更多>></a></p>
+                </div>
+                <ul class="tip-content">
+                    <li> <img src="img/51.jpg" alt="">  </li>
+                    <li> <img src="img/52.jpg" alt=""> </li>
+                    <li> <img src="img/53.jpg" alt=""> </li>
+                </ul>
+            </div>
+        </div>
+        <div id ="act" class="container-fluid">
+            <div class="container">
+                <div class ="act-nav">
+                    <h1>市场活动</h1>
+                    <p> <a href="">更多>></a> </p>
+                </div>
+                <ul class="act-content">
+                    <li> <img src="img/61.jpg" alt="">  </li>
+                    <li> <img src="img/62.jpg" alt=""> </li>
+                    <li> <img src="img/63.jpg" alt=""> </li>
+                </ul>
+            </div>
+        </div>
+        <div id ="news" class="container-fluid">
+            <div class="container">
+                <div class ="news-nav">
+                    <h1>新闻中心</h1>
+                    <p><a href="">更多>></a></p>
+                </div>
+                <div class="news-content">
+                    <div class ="news-img">
+                        <img src="img/71.jpg" alt="">
+                    </div>
+                   <ul class="news-list">
+                       <li>
+                            <div class="news-list-date">
+                                <h2>01</h2>
+                                <p>2020年06月02日</p>
+                            </div>
+                            <div class="news-list-content">
+                                <h3> 联想×京东总裁直播带货破亿</h3>
+                                <p>6月1日傍晚，联想集团执行副总裁兼中国区总裁
+                                    <br>刘军空降京东直播间，联合京东集团高级副总裁</p>
+                                    <div class="iconfont icon-youjiantou"></div>
+                            </div>
+                       </li>
+                       <li>
+                        <div class="news-list-date" >
+                            <h2>02</h2>
+                            <p>2020年05月13日</p>
+                        </div>
+                        <div class="news-list-content">
+                            <h3> 联想将成为“中国智造”的“新民族品牌”代表</h3>
+                            <p>5月10日，联想受邀出席了以“信心：品牌强国工
+                               <br> 程推动中国经济内循环加速”</p>
+                               
+                                <div class="iconfont icon-youjiantou"></div>
+                        </div>
+                       </li>
+                       <li>
+                        <div class="news-list-date" >
+                            <h2>03</h2>
+                            <p>2020年05月07日</p>
+                        </div>
+                        <div class="news-list-content">
+                            <h3> 联想启动智慧中国行活动，首站大咖尖峰对话</h3>
+                            <p>联想携手行业生态合作伙伴,共同发起“智慧中国 <br> 行”系列活动
+                                </p>
+                                <div class="iconfont icon-youjiantou"></div>
+                        </div>
+                       </li>
+                   </ul>
+                </div>
+            </div> 
+        </div>
+        <div id ="hot" class="container-fluid">
+            <div class="container">
+                <div class ="hot-nav">
+                    <h1>推荐热门板块</h1>
+                    <p> <a href="">更多>></a> </p>
+                </div>
+                <ul class="hot-content">
+                    <li> <img src="img/81.jpg" alt="">  </li>
+                    <li> <img src="img/82.jpg" alt=""> </li>
+                    <li> <img src="img/83.png" alt=""> </li>
+                </ul>
+            </div>
+        </div>
+        <footer  class ="container-fluid">
+            <div id="foot" class ="container">
+         <ul class = "foot-one">
+             <li> <h2>关于联想</h2> </li>
+             <li> 投资者关系</li>
+             <li>加入我们</li>
+             <li>联系我们</li>
+             <li>参观联想</li>
+             <li>销售网点查询</li>
+             <li>服务网点查询</li>
+         </ul>
+         <ul class = "foot-two">
+            <li> <h2>联想商城</h2> </li>
+            <li> 今日秒杀</li>
+            <li>联想合伙人</li>
+            <li>私人订制</li>
+            <li>以旧换新</li>
+            <li>私人订制</li>
+        </ul>
+        <ul class = "foot-three">
+            <li> <h2>联想服务</h2> </li>
+            <li> 驱动与软件下载</li>
+            <li>热门解决方案</li>
+            <li>Lenovo Quick Fix工具
+            </li>
+            <li>24小时智能客服</li>
+            <li>保修配置查询</li>
+            <li>服务政策查询</li>
+            <li>上门快修</li>
+            <li>延长保修</li>
+            <li>更多服务</li>
+        </ul>
+        <ul class ="foot-four">
+            <li><h2>联想网站群</h2></li>
+            <li>
+                <p>联想创投</p>
+                <p>联想百应平台</p>
+            </li>
+            <li>
+                <p>聚星汇</p>
+                <p>联想租赁商城</p>
+            </li>
+            <li>
+                <p>联想电脑管家</p>
+                <p>联想企业网盘</p>
+            </li>
+            <li>
+                <p>联想超融合</p>
+                <p>Thinkpad官网</p>
+            </li>
+            <li>
+                <p>联想研究院</p>
+                <p>lecoo商城</p>
+            </li>
+            <li>
+                <p>联想数据中心</p>
+                <p>联想大数据</p>
+            </li>
+            <li>
+                <p>联想filez</p>
+                <p>联想商用官网</p>
+            </li>
+        </ul>
+        <ul class = "foot-five">
+            <li> <h2>联想官方社交平台</h2> </li>
+            <li> 
+                <span> <img src="img/qq.png" alt=""> </span>
+                <span> <img src="img/weibo.png" alt=""></span>
+                <span> <img src="img/weixin.png" alt=""></span>
+                <span> <img src="img/zhifubao.png" alt=""></span>     
+            </li>
+            <li>
+                <h2>袁庆微博</h2>
+                <h2>百度贴吧</h2>
+            </li>
+            <li>
+                <h2>400-990-8888转4</h2>
+            </li>
+            <li>周一到周日 9:00-21:00</li>
+            <li> <h2>在线咨询</h2> </li>
+        </ul>
+          </div>         
+        </footer>
+        <div id="end" class="container-fluid">
+            <p  class="container">版权所有：1998-2020 联想集团 |法律公告 |隐私权政策 |产品安全</p>
+          </div>
+</body>
+
+</html>

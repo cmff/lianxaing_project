@@ -1,0 +1,65 @@
+*{margin:0;padding:0}
+body{font:12px Georgia, serif}
+html{overflow-y:scroll}
+a{text-decoration:none}
+a:focus{outline:0}
+#page-wrap{width:100%}
+ul{list-style:none}
+/* Generic Utility */
+.hide{position:absolute;top:-9999px;left:-9999px}
+
+/* Specific to example one */
+
+#example-one{
+    width:100%;
+    position: relative;
+}
+
+#example-one .list-tab{
+    width:100%;
+    background:#f2f2f2;
+    overflow:hidden;
+    line-height: 50px;
+    font-weight: bold;
+}
+#example-one .list-tab li{width:172px;height:56px;float:left;}
+#example-one .list-tab li a{display:block;padding:5px;color:#616161;font-size:10px;text-align:center;}
+#example-one li a{display:block;}
+#example-one .list-tab li a:hover{color:#6480a6}
+#example-one .list-wrap{
+    position: absolute;
+    width:100%;
+    height: 0;
+    background: white;
+    z-index: 10;
+   /* 点击的时候显示 */
+    /* display:none; */
+}
+#example-one .list-wrap .wrap{
+    position: relative;
+}
+#example-one .list-wrap .wrap ul{
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    height:0;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding:0px 50px;
+    /* 让带active的显示 */
+    /* z-index: 5; */
+    position: absolute;
+    left:0;top:0;
+    
+}
+#example-one .list-wrap li{
+   width: 150px;
+}
+#example-one .list-wrap  li a{
+    margin-top: 15px;
+    color:#616161;
+    font-family: "微软雅黑";
+}
+#example-one .list-wrap ul li a:first-child{
+    font-weight: bold;
+}
